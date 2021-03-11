@@ -24,7 +24,6 @@ const GameScreen = (props) => {
     console.log(userChoice);
     console.log(currentGuess);
     if (currentGuess === userChoice){
-      console.log("AA")
       onGameOver(rounds);
     }
   },[currentGuess, userChoice, onGameOver]);
